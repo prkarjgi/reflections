@@ -1,0 +1,17 @@
+Lesson 2
+Q. What happens when you initialize a repository? Why do you need to do it?
+when you initialise a repository, you create a .git file and create an empty repository. It is useful so you can use the benefits of git's version control locally. 
+
+Q. How is the staging area different from the working directory and the repository? What value do you think it offers?
+The staging area is an intermediate stage between the working directory and the repository. Files that are to be committed are added to the staging area which can then be committed to the git repository.
+It is beneficial because it allows the user to make logical commits more carefully. One has more control over what is added to the git repository by using an intermediate stage.
+
+Q. How can you use the staging area to make sure you have one commit per logical change?
+
+Q. What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Q. How do the diagrams help you visualize the branch structure?
+
+Q. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Q. What are the pros and cons of Git's automatic merging vs. always doing merges manually?
