@@ -13,6 +13,7 @@ Q. What are some situations when branches would be helpful in keeping your histo
 When you have a fully working version and want to test out a new feature which could potentially mess up the working of the code, it would seem intuitive to create a new branch to test the new features. This would keep all the linear changes all on one branch, with only the prototyping features on other branches.
 
 Q. How do the diagrams help you visualize the branch structure?
+The diagrams help keep track of each commit and each branch. It makes it easy to understand which commits are unreachable. It's a simple and elegant way to keep track of changes being made.
 
 Q. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
