@@ -20,3 +20,8 @@ When we merge two branches we get a new branch with certain commits from both br
 It is represented as a new commit with both branches as parent branches. It is useful because it might indicate a working feature that should be used in the production code.
 
 Q. What are the pros and cons of Git's automatic merging vs. always doing merges manually?
+The pros of automatic merging are that when there is no confusion about a change made, the automatic merging makes the job a lot simpler for us. 
+The cons of automatic merging are that it cannot always do so in case of merge conflicts as the task of deciding which commit is the desired one is complex. 
+
+A pro of manual merges is that we have a lot of control over what is committed and what is not as in the case of merge conflicts.
+A con of manual merges is that manual merges may be tedious in case of several changes in a merge conflicts.
