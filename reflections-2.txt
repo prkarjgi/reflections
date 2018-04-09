@@ -16,5 +16,7 @@ Q. How do the diagrams help you visualize the branch structure?
 The diagrams help keep track of each commit and each branch. It makes it easy to understand which commits are unreachable. It's a simple and elegant way to keep track of changes being made.
 
 Q. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+When we merge two branches we get a new branch with certain commits from both branches. We can then delete one of the previous branches if desired and the new branch becomes the tip of one of the older branches.
+It is represented as a new commit with both branches as parent branches. It is useful because it might indicate a working feature that should be used in the production code.
 
 Q. What are the pros and cons of Git's automatic merging vs. always doing merges manually?
