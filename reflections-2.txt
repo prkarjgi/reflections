@@ -1,27 +1,27 @@
 Lesson 2
 Q. What happens when you initialize a repository? Why do you need to do it?
-when you initialise a repository, you create a .git file and create an empty repository. It is useful so you can use the benefits of git's version control locally. 
+	when you initialise a repository, you create a .git file and create an empty repository. It is useful so you can use the benefits of git's version control locally. 
 
 Q. How is the staging area different from the working directory and the repository? What value do you think it offers?
-The staging area is an intermediate stage between the working directory and the repository. Files that are to be committed are added to the staging area which can then be committed to the git repository.
-It is beneficial because it allows the user to make logical commits more carefully. One has more control over what is added to the git repository by using an intermediate stage.
+	The staging area is an intermediate stage between the working directory and the repository. Files that are to be committed are added to the staging area which can then be committed to the git repository.
+	It is beneficial because it allows the user to make logical commits more carefully. One has more control over what is added to the git repository by using an intermediate stage.
 
 Q. How can you use the staging area to make sure you have one commit per logical change?
-Using the git diff --staged and git diff commands we can observe the changes we want to make to the files before committing. We can use this to verify the number and kind of logical changes we are about to make. 
+	Using the git diff --staged and git diff commands we can observe the changes we want to make to the files before committing. We can use this to verify the number and kind of logical changes we are about to make. 
 
 Q. What are some situations when branches would be helpful in keeping your history organized? How would branches help?
-When you have a fully working version and want to test out a new feature which could potentially mess up the working of the code, it would seem intuitive to create a new branch to test the new features. This would keep all the linear changes all on one branch, with only the prototyping features on other branches.
+	When you have a fully working version and want to test out a new feature which could potentially mess up the working of the code, it would seem intuitive to create a new branch to test the new features. This would keep all the linear changes all on one branch, with only the prototyping features on other branches.
 
 Q. How do the diagrams help you visualize the branch structure?
-The diagrams help keep track of each commit and each branch. It makes it easy to understand which commits are unreachable. It's a simple and elegant way to keep track of changes being made.
+	The diagrams help keep track of each commit and each branch. It makes it easy to understand which commits are unreachable. It's a simple and elegant way to keep track of changes being made.
 
 Q. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
-When we merge two branches we get a new branch with certain commits from both branches. We can then delete one of the previous branches if desired and the new branch becomes the tip of one of the older branches.
-It is represented as a new commit with both branches as parent branches. It is useful because it might indicate a working feature that should be used in the production code.
+	When we merge two branches we get a new branch with certain commits from both branches. We can then delete one of the previous branches if desired and the new branch becomes the tip of one of the older branches.
+	It is represented as a new commit with both branches as parent branches. It is useful because it might indicate a working feature that should be used in the production code.
 
 Q. What are the pros and cons of Git's automatic merging vs. always doing merges manually?
-The pros of automatic merging are that when there is no confusion about a change made, the automatic merging makes the job a lot simpler for us. 
-The cons of automatic merging are that it cannot always do so in case of merge conflicts as the task of deciding which commit is the desired one is complex. 
+	The pros of automatic merging are that when there is no confusion about a change made, the automatic merging makes the job a lot simpler for us. 
+	The cons of automatic merging are that it cannot always do so in case of merge conflicts as the task of deciding which commit is the desired one is complex. 
 
-A pro of manual merges is that we have a lot of control over what is committed and what is not as in the case of merge conflicts.
-A con of manual merges is that manual merges may be tedious in case of several changes in a merge conflicts.
+	A pro of manual merges is that we have a lot of control over what is committed and what is not as in the case of merge conflicts.
+	A con of manual merges is that manual merges may be tedious in case of several changes in a merge conflicts.
