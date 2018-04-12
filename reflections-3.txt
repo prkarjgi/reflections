@@ -1,46 +1,24 @@
-<<<<<<< HEAD
+
 When would you want to use a remote repository rather than keeping all your work local?
-Storing the work in a remote repository will store it in the cloud. In case anything happens to your local, since the remote has all the code, it will remain safe. Also allows large files that may exceed the storage capacity of the local to be stored elsewhere.
+	Storing the work in a remote repository will store it in the cloud. In case anything happens to your local, since the remote has all the code, it will remain safe. Also allows large files that may exceed the storage capacity of the local to be stored elsewhere.
 
-Why might you want to always pull changes manually rather than having Git
-automatically stay up-to-date with your remote repository?
+When would you want to use a remote repository rather than keeping all your work local?
+	Storing the work in a remote repository will store it in the cloud. In case anything happens to your local, since the remote has all the code, it will remain safe. Also allows large files that may exceed the storage capacity of the local to be stored elsewhere.
 
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+	In case you are working on a file on your local which has also been worked on by another contributor in a commit, there would be a conflict. It gives us more flexibility and control to pull changes made to a remote manually to avoid mismatches in commits. 
 
 Describe the differences between forks, clones, and branches.  When would you use one instead of another?
 
-
-What is the benefit of having a copy of the last known state of the remote
-stored locally?
-
-
-How would you collaborate without using Git or GitHub?  What would be easier, and what would be harder?
-
-
-When would you want to make changes in a separate branch rather than directly in master?  What benefits does each approach have?
-
-||||||| merged common ancestors
-=======
-When would you want to use a remote repository rather than keeping all your work local?
-Storing the work in a remote repository will store it in the cloud. In case anything happens to your local, since the remote has all the code, it will remain safe. Also allows large files that may exceed the storage capacity of the local to be stored elsewhere.
-
-Why might you want to always pull changes manually rather than having Git
-automatically stay up-to-date with your remote repository?
-In case you are working on a file on your local which has also been worked on by another contributor in a commit, there would be a conflict. It gives us more flexibility and control to pull changes made to a remote manually to avoid mismatches in commits. 
-
-Describe the differences between forks, clones, and branches.  When would you use one instead of another?
-
-A clone is a copy of a repository, a fork is similar to a clone in that it is a copy of a repository but it exists within the GitHub environment. A simple clone can exist without using GitHub.
+	A clone is a copy of a repository, a fork is similar to a clone in that it is a copy of a repository but it exists within the GitHub environment. A simple clone can exist without using GitHub.
 A branch is a timeline of commits for the same repository.
-I would clone whenever I wanted to make a copy of a repo locally and make changed. I would fork if I wanted to specifically use GitHub to track changes and use remotes. I would branch any time I would work on a new feature that could potentially affect the working of my code.
+	I would clone whenever I wanted to make a copy of a repo locally and make changed. I would fork if I wanted to specifically use GitHub to track changes and use remotes. I would branch any time I would work on a new feature that could potentially affect the working of my code.
 
-What is the benefit of having a copy of the last known state of the remote
-stored locally?
-
+What is the benefit of having a copy of the last known state of the remote stored locally?
+	This is helpful because it tells you what the status of the remote is when you make changes locally and want to push to the remote.	
 
 How would you collaborate without using Git or GitHub?  What would be easier, and what would be harder?
 
 
 When would you want to make changes in a separate branch rather than directly in master?  What benefits does each approach have?
 
-
->>>>>>> 1df5afc18a353e4fa34907ddb23111fbca11dcfa
