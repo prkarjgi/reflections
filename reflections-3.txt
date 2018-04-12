@@ -1,4 +1,4 @@
-
+Lesson 3
 When would you want to use a remote repository rather than keeping all your work local?
 	Storing the work in a remote repository will store it in the cloud. In case anything happens to your local, since the remote has all the code, it will remain safe. Also allows large files that may exceed the storage capacity of the local to be stored elsewhere.
 
@@ -18,6 +18,9 @@ What is the benefit of having a copy of the last known state of the remote store
 	This is helpful because it tells you what the status of the remote is when you make changes locally and want to push to the remote.	
 
 How would you collaborate without using Git or GitHub?  What would be easier, and what would be harder?
+	An alternative would be a centralised repository where people make changes locally and then manually resolve them or to assign specific modular tasks to each collaborator to prevent conflicts. This would lower the learning curve but would lack the flexibility Git and GitHub offers.
+	
+	Git and GitHub provide a structured workflow that has a steep learning curve but makes the organisation systematic. A lack of this makes it harder.
 
 
 When would you want to make changes in a separate branch rather than directly in master?  What benefits does each approach have?
